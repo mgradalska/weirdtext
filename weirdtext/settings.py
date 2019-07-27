@@ -60,8 +60,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'weirdtext.wsgi.application'
 
-ALLOWED_HOSTS = ['damp-bastion-46152.herokuapp.com']
-
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
