@@ -40,8 +40,8 @@ class Encoder():
 
     def __sort_words(self, words):
         sorted_string = ''
-        for word in sorted(words):
-            sorted_string += word + ' '
+        for idx, word in enumerate(sorted(words)):
+            sorted_string += word + ' ' if idx != len(words) - 1 else word
         return sorted_string
 
     def test(self):

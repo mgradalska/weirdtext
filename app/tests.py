@@ -12,7 +12,7 @@ class EncoderTestCase(TestCase):
         original_text = 'some (text) for, test!'
         encoder_result = encoder.create_encoded_response(original_text)
         sorted_string = encoder_result.split('\n-weird-\n')[2]
-        assert sorted_string == 'for some test text '
+        assert sorted_string == 'for some test text'
 
     def test_encodes_with_default_separator(self):
         original_text = 'some? text|| for, test'
@@ -27,7 +27,7 @@ class EncoderTestCase(TestCase):
     def test_when_numer_input_encodes_correctly(self):
         original_text = 123
         encoder_result = encoder.create_encoded_response(original_text)
-        assert encoder_result == '\n-weird-\n123\n-weird-\n123 '
+        assert encoder_result == '\n-weird-\n123\n-weird-\n123'
 
     def test_when_custom_separator_returns_correct_response(self):
         original_text = 'some text for test'
