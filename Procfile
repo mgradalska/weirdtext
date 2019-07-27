@@ -1,0 +1,1 @@
+web: gunicorn weirdtext.wsgi --log-file -
