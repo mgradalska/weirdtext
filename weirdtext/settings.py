@@ -61,7 +61,7 @@ TEMPLATES = [
 WSGI_APPLICATION = 'weirdtext.wsgi.application'
 
 ALLOWED_HOSTS = [
-    'damp-bastion-46152.herokuapp.com',
+    'weirdtext-app.herokuapp.com',
     '127.0.0.1'
 ]
 
