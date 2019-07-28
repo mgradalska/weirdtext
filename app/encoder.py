@@ -43,6 +43,3 @@ class Encoder():
         for idx, word in enumerate(sorted(words)):
             sorted_string += word + ' ' if idx != len(words) - 1 else word
         return sorted_string
-
-    def test(self):
-        return 'encoder test'

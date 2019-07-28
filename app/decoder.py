@@ -33,6 +33,3 @@ class Decoder():
     def __split_input_into_parts(self, input_text):
         input_parts = input_text.split(self.separator)
         return input_parts[1], input_parts[2]
-
-    def test(self):
-        return 'decoder test'
