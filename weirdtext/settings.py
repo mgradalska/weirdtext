@@ -9,8 +9,6 @@ SECRET_KEY = '$hqayfe6hn+fk1=6$38yp*-axxvtrm7fw=$dc=t6z)2-pypvaq'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
 # Application definition
 
 INSTALLED_APPS = [
